@@ -1,0 +1,7 @@
+extends ../layouts/main.pug
+
+block content
+    each data in PenList
+        h3 색깔 #{data.color}
+        h3 가격: #{data.price} 원
+        hr
